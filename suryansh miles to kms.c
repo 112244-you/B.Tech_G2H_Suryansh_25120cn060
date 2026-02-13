@@ -4,7 +4,9 @@ int main(){
     
     float b,c,d,e;
 
-    printf("Enter 1 if u want to convert miles to kms\n Enter 2 for converting kms to miles\n");
+    while(1){
+
+    printf("Enter 1 if u want to convert miles to kms\nEnter 2 for converting kms to miles\nEnter 10 if u want to end program\n");
     
     scanf("%d",&a);
     
@@ -29,10 +31,15 @@ int main(){
         
         printf("The distance is miles is:%0.2f",e);
     }
+        else if (a==10){
+            printf("Exiting program");
+            break;
+        }
     else{
 
-        printf("Entered choice is wrong!\n Please choose from the provided options");
+        printf("Entered choice is wrong!\nPlease choose from the provided options\n");
     }
+}
         return 0;
     
     }
