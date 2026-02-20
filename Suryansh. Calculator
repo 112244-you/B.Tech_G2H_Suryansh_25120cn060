@@ -37,10 +37,7 @@ int main() {
         printf("the division of two numbers are %f",(float)(a/b));
 
         break;
-        
-        
-
-
+    
 
 }
     return 0;
